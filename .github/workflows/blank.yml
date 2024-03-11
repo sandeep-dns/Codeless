@@ -4,7 +4,7 @@
   uses: accelq/accelq-ci-github-actions@v1.4
   with:
     # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-    appURL: http://127.0.0.1:59673
+    appURL: http://10.0.0.85:4723
     # Your ACCELQ User ID
     userName: sandeep.dwadasi@claritisoftware.com
     # API key available in Profile section of ACCELQ : Sandeep
