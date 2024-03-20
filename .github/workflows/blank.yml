@@ -10,6 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+       - name: Checkout
+        uses: actions/checkout@v4
+      - name: ACCELQ Github-A Connect
         uses: accelq/accelq-ci-github-actions@v1.4 
         with:
           # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
